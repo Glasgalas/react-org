@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import styled from 'styled-components';
 import 'normalize.css';
 
 export const GlobalStyle = createGlobalStyle`
@@ -24,4 +25,8 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     color: inherit;
   }
+  
   `;
+export const Wrap = styled.div`
+  display: flex;
+`;
